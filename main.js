@@ -1,5 +1,5 @@
-const interactiveMode = require("./interactiveMode");
-const nonInteractiveMode = require("./nonInteractiveMode");
+const interactiveMode = require("./modules/interactiveMode");
+const nonInteractiveMode = require("./modules/nonInteractiveMode");
 
 if (process.argv.length === 2) {
   interactiveMode();

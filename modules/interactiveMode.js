@@ -1,5 +1,5 @@
 const readline = require("readline");
-const solveQuadraticEquation = require("./solveQuadraticEquation");
+const solveQuadraticEquation = require("./utils/solveQuadraticEquation");
 
 const isValidNumber = (num) => !isNaN(num) && isFinite(num);
 

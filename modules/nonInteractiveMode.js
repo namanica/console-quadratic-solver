@@ -1,5 +1,5 @@
 const fs = require("fs");
-const solveQuadraticEquation = require("./solveQuadraticEquation");
+const solveQuadraticEquation = require("./utils/solveQuadraticEquation");
 
 const nonInteractiveMode = (filePath) => {
   try {
